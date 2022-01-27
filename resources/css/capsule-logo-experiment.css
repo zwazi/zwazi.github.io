@@ -1,0 +1,45 @@
+.capsule-logo {
+    float: left;
+}
+
+.capsule-top {
+    background-color: #EF4931;
+    width: 20px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.capsule-right {
+    background-color: #99BFBC;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.capsule-left {
+    background-color: #FFD300;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.capsule-bottom {
+    background-color: #0F3C6C;
+    width: 20px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.capsule-top-triangle {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #EF4931;
+    border-right: 20px solid transparent;
+}
+
+.capsule-bottom-triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #0F3C6C;
+    border-left: 20px solid transparent;
+}
