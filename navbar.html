@@ -1,8 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <title>Receiving Tool Navbar</title>
+        <link href="./resources/css/navbar.css" rel="stylesheet">
     </head>
+
     <body>
+        <div id="nav-div">
+            <div id="capsule-logo"></div>
+            <div class="nav" id="home">
+                <a id="home-link" href="#">Home</a>
+            </div>
+
+            <div class="nav" id="invoice">
+                <a id="invoice-link" href="#">Invoice</a>
+                <div class="nav-dropdown" id="invoice-dropdown">
+                    <a class="invoice-dropdown-links" id="upload-inv-link" href="#">Upload Invoices</a>
+                    <a class="invoice-dropdown-links" id="adv-inv-search-link" href="#">Advanced Invoice Search</a>
+                </div>
+            </div>
+
+            <div class="nav" id="item">
+                <a id="item-link" href="#">Item</a>
+                <div class="nav-dropdown" id="item-dropdown">
+                    <a class="item-dropdown-links" id="edit-item-link" href="#">Edit Item</a>
+                </div>
+            </div>
+
+            <div class="nav" id="scan">
+                <a id="scan-link" href="#">Scan</a>
+                <div class="nav-dropdown" id="scan-dropdown">
+                    <a class="scan-dropdown-links" id="fix-scanner-link" href="#">Fix Scanner</a>
+                </div>
+            </div>
+
+            <div class="nav" id="tools">
+                <a id="tools-link" href="#">Tools</a>
+                <div class="nav-dropdown" id="tools-dropdown">
+                    <a class="tools-dropdown-links" id="cycle-count-link" href="#">Cycle Count</a>
+                    <a class="tools-dropdown-links" id="pill-id-link" href="#">Pill Identification</a>
+                </div>
+            </div>
+
+            <div class="nav" id="account">
+                <a id="account-link" href="#">Account</a>
+                <div class="nav-dropdown" id="account-dropdown">
+                    <a class="account-dropdown-links" id="gmail-login-link" href="#">Sign In with Gmail</a>
+                    <a class="account-dropdown-links" id="history-link" href="#">Account History</a>
+                    <a class="account-dropdown-links" id="logout-link" href="#">Logout</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

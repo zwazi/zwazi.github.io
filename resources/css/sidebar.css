@@ -1,0 +1,85 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Sidebar */
+
+#sidebar {
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+
+/* Invoice Search Area */
+
+#invoice-search-bar {
+    display: block;
+    width: 80%;
+    margin: 25px auto 7px;
+    padding: 7px 15px;
+}
+
+.invoice-search-sliders {
+    width: 80%;
+    margin: 0 auto;
+    top: 0;
+}
+
+/* Invoice upload button */
+
+.invoice-upload-text {
+    list-style: none;
+}
+
+.invoice-upload-text-all {
+    display: inline-block;
+}
+
+.invoice-upload-text-plus {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.invoice-upload-text-general {
+    font-size: 26px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.invoice-upload:hover {
+    background-color: #00ff0033;
+    cursor: pointer;
+}
+
+/* Invoice List */
+
+.invoice {
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.invoice:hover {
+    background-color: #888;
+    cursor: pointer;
+}
+
+.vendor-image {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.vendor-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vendor-info li {
+    padding: 0 10px;
+}

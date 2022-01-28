@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Receiving Tool Sidebar</title>
+        <link href="./resources/css/sidebar.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="sidebar">
+            <div id="search">
+                <input placeholder="Search Invoices..." id="invoice-search-bar">
+
+                <div class="invoice-search-sliders">
+                    <input type="checkbox" id="open-invoice-slider" class="invoice-slider" name="open-invoice-slider" checked>
+                    <label for="open-invoice-slider">Show Open Invoices</label>
+                </div>
+
+                <div class="invoice-search-sliders">
+                    <input type="checkbox" id="closed-invoice-slider" class="invoice-slider" name="closed-invoice-slider">
+                    <label for="closed-invoice-slider">Show Closed Invoices</label>
+                </div>
+            </div>
+
+            <div class="invoice-upload">
+                <ul class="invoice-upload-text">
+                    <li class="invoice-upload-text-all invoice-upload-text-plus">+</li>
+                    <li class="invoice-upload-text-all invoice-upload-text-general">Upload Invoices</li>
+                </ul>
+            </div>
+
+            <div class="invoice-list">
+                <ul class="invoice">
+                    <img class="vendor-image" src="./resources/images/ABC.png">
+                    <div class="vendor-info">
+                        <li class="vendor-name">
+                            Amerisource Bergen
+                        </li>
+                        <li class="invoice-number">
+                            1234567890
+                        </li>
+                        <li class="invoice-date">
+                            01/01/1990 00:00
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
