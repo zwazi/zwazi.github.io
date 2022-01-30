@@ -13,15 +13,16 @@
     z-index: 1;
 }
 
-.nav {
+.nav-mine {
     display: inline-block;
     position: relative;
     padding: 7px;
     vertical-align: middle;
 }
 
-.nav:hover {
+.nav-mine:hover {
     background-color: #aaa;
+    cursor: pointer;
 }
 
 
@@ -93,7 +94,7 @@
 
 /* End Capsule Logo */
 
-.nav a {
+.nav-mine a {
     text-decoration: none;
     color: #333;
 }
@@ -118,19 +119,19 @@
     background: #aaa;
 }
 
-.nav:hover .nav-dropdown {
+.nav-mine:hover .nav-dropdown {
     display: block;
 }
 
-.nav:first-child a {
+.nav-mine:first-child a {
     padding-left: 28px;
 }
 
-.nav:last-child {
+.nav-mine:last-child {
     float: right;
     padding-right: 25px;
 }
 
-.nav:last-child .nav-dropdown {
+.nav-mine:last-child .nav-dropdown {
     right: 0;
 }

@@ -1,15 +1,15 @@
 /* Opens the navbar */
 function openNav() {
-  document.getElementById("sidebar").style.display = "block"
   document.getElementById("sidebar").style.left = "0"
-  document.getElementById("sidebar-background-filter").style.left = "0"
+  document.getElementById("sidebar-background-filter").style.display = "block"
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
 /* Closes the nav bar */
 function closeNav() {
-  document.getElementById("sidebar").style.display = "none"
-  document.getElementById("sidebar").style.left = "-1000"
-  document.getElementById("sidebar-background-filter").style.left = "-100%"
+  document.getElementById("sidebar").style.left = "-450px"
+  document.getElementById("sidebar-background-filter").style.display = "none"
+  document.body.style.backgroundColor = "white";
 } 
 
 function openChild() {

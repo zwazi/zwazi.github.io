@@ -2,11 +2,46 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#scan-table-div {
+/* Scan Progress Bar */
+
+#scan-progress-bar-background {
     position: fixed;
-    top: 40px;
+    top: 33px;
     left: 0;
     width: 100%;
+    height: 20px;
+    background-color: lightgray;
+    transition: 0.2s;
+}
+
+#scan-progress-bar-foreground {
+    background-color: #4CAF50; 
+    width: 25%; 
+    height: 100%;
+    transition: 1s;
+}
+
+#scan-progress-bar-foreground:hover {
+    width: 50%;
+}
+
+
+/* Scan Table */
+
+
+#scan-table-div {
+    position: fixed !important;
+    top: 106px;
+    bottom: 75px;
+    left: 0;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 80%;
+}
+
+#toolbar-123 {
+    height: 50px;
 }
 
 #scan-table {
@@ -67,4 +102,33 @@
 
 #child-table {
     display: none;
+}
+
+#footer-div {
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    bottom: 0;
+    left: 0;
+    vertical-align: bottom;
+    background-color: lightgrey;
+}
+
+#scan-table-input {
+    position: fixed;
+    width: 95%;
+    height: 3em;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    outline-style: none;
+    background-color: #eee;
+    transition: 0.2s;
+}
+
+#scan-table-input:focus {
+    border: 1px solid black;
 }
